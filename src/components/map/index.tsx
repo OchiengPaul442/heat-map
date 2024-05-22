@@ -66,7 +66,7 @@ const Map = () => {
       // Fetch air quality data using axios
       axios
         .get(
-          `http://api.waqi.info/map/bounds/?latlng=-90,-180,90,180&token=${apiKey}`
+          `https://api.waqi.info/map/bounds/?latlng=-90,-180,90,180&token=${apiKey}`
         )
         .then((response) => {
           if (Array.isArray(response.data.data)) {
@@ -83,7 +83,7 @@ const Map = () => {
             locations.forEach((location) => {
               axios
                 .get(
-                  `http://api.waqi.info/feed/geo:${location.lat};${location.lon}/?token=${apiKey}`
+                  `https://api.waqi.info/feed/geo:${location.lat};${location.lon}/?token=${apiKey}`
                 )
                 .then((response) => {
                   const aqi = response.data.data.iaqi.pm25.v;
