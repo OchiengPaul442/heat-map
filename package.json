@@ -11,6 +11,7 @@
   "dependencies": {
     "@maptiler/leaflet-maptilersdk": "^2.0.0",
     "axios": "^1.7.2",
+    "http-proxy-middleware": "^3.0.0",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
     "next": "14.2.2",
