@@ -1,17 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This application presents an interactive map that dynamically displays air quality data and heatmaps, with a primary emphasis on providing detailed insights into the air quality across various regions in Africa. The data visualization techniques employed allow for an intuitive understanding of air quality metrics, contributing to environmental awareness and informed decision-making.
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -38,3 +35,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Using WAQI APIS
 
 Online Docs: https://aqicn.org/json-api/doc/
+
+## Image
+![image](https://github.com/OchiengPaul442/heat-map/assets/97807374/cc72eb8a-dcfd-405b-a74d-d783cabf9f78)
